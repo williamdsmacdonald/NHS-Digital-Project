@@ -1,0 +1,41 @@
+# Ignore configuration files containing sensitive information
+config.py
+.env
+
+# Ignore Python virtual environment
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore database files
+*.db
+*.sqlite
+
+# Ignore log files
+*.log
+
+# Data
+*.csv
+*.xlsx
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore any local notes or temporary files
+notes.txt
+temp/
+
+
+# Specifically ignore the large files
+data/actual_duration_data_nan_ccg_icb.csv
+data/regional_data_nan_ccg_icb.csv
+
+#Ignore PNG
+*.png
