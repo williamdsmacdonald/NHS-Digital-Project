@@ -1,0 +1,16 @@
+import os
+
+# Database configuration
+DB_HOST = os.environ.get('DB_HOST', 'localhost')
+DB_NAME = os.environ.get('DB_NAME', 'nhs_digital')
+DB_USER = os.environ.get('DB_USER', 'your_username')
+DB_PASSWORD = os.environ.get('DB_PASSWORD', 'your_password')
+
+# API configuration (if applicable)
+API_KEY = os.environ.get('API_KEY', 'your_api_key')
+
+# Other configuration settings
+DEBUG = os.environ.get('DEBUG', 'False') == 'True'
+LOG_LEVEL = os.environ.get('LOG_LEVEL', 'INFO')
+
+# Add any other configuration variables your project needs
