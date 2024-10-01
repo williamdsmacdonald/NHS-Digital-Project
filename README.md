@@ -10,6 +10,5 @@ This project scrapes public data from the NHS Digital website, processes it, and
 otebooks/: Jupyter notebooks for data analysis
 - output/: Generated visualizations and dashboard
 - config.py: Configuration settings
-- equirements.txt: Project dependencies
-
-[Add more sections as needed]
+- 
+requirements.txt: Project dependencies
