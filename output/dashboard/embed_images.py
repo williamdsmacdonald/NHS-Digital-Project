@@ -32,8 +32,8 @@ def convert_html_with_local_images(html_content, visualisations_path):
 # Define paths
 project_root = Path(__file__).parent.parent.parent
 input_html_path = project_root / "src" / "dashboard.html"
-output_html_path = project_root / "output" / "dashboard" / "dashboard_embedded.html"
-visualisations_path = project_root / "output" / "visualisations"
+output_html_path = project_root / "output" / "dashboard" / "nhs-digital-project.html"
+visualisations_path = project_root / "visualisations"
 
 # Read the original HTML content
 with open(input_html_path, "r") as file:
